@@ -43,6 +43,3 @@ text_list = [
 "y",
 "z"
 ]
-basic.forever(function () {
-	
-})
