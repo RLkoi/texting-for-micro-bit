@@ -4,10 +4,12 @@ input.onButtonPressed(Button.A, function () {
     basic.showString("" + (Word))
 })
 radio.onReceivedString(function (receivedString) {
+    soundExpression.hello.playUntilDone()
     basic.showString(receivedString)
 })
 input.onButtonPressed(Button.B, function () {
     radio.sendString("" + (Word))
+    music.playMelody("C D E F G A B C5 ", 540)
     basic.pause(100)
     Letter = 0
 })
