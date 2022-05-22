@@ -1,3 +1,5 @@
+A button is to change the letter B is to send.
+
 
 > Open this page at [https://rlkoi.github.io/texting-for-micro-bit/](https://rlkoi.github.io/texting-for-micro-bit/)
 
